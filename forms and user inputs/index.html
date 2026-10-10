@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+</head>
+
+<body>
+    <h1>Forms</h1>
+    <form>
+        <label for="username">User Name:</label>
+        <input type="text" name="username" id="username" placeholder="Your Name" required> <br>
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" placeholder="your Email" required> <br>
+
+        <label for="pw">Password:</label>
+        <input type="password" name="password" id="pw" required> <br>
+
+        <label for="num">Number:</label>
+        <input type="number" name="num" id="num"> <br>
+
+        <label for="date">DOB:</label>
+        <input type="date" name="date" id="date" required>
+
+        <label for="datetime">Date & Time:</label>
+        <input type="datetime-local" name="datetime" id="datetime"> <br>
+
+        <label for="color">Pick Your Fav Color:</label>
+        <input type="color" name="color" id="color">
+
+        <label for="file">Choose File:</label>
+        <input type="file" name="file" id="file"><br>
+
+        <label for="search">Search:</label>
+        <input type="search" name="search" id="search"><br>
+
+        <label for="week">Week:</label>
+        <input type="week" name="week" id="week"> <br>
+
+        <label for="gender">Gender:</label>
+        <label for="male"><input type="radio" name="gender" id="male" value="male">Male</label>
+        <label for="female"><input type="radio" name="gender" id="female" value="female">feMale</label>
+        <label for="other"><input type="radio" name="gender" id="other" value="other">Other</label> <br>
+
+
+        <label for="game">Favorite Game:</label>
+        <label for="cricket"><input type="checkbox" name="game" id="cricket" value="cricket">Cricket</label>
+        <label for="basketBall"><input type="checkbox" name="game" id="basketBall" value="basketball">BasketBall</label>
+        <label for="kabadi"><input type="checkbox" name="game" id="kabadi" value="kabadi">Kabadi</label>
+        <label for="football"><input type="checkbox" name="game" id="football" value="football">FootBall</label> <br>
+
+        <label for="range">Your Range</label>
+        <input type="range" name="range" id="range"> <br>
+
+        <label for="city">Your Country:</label>
+        <select name="city" id="city">
+            <option value="">Choose Yourr Country:</option>
+            <option value="India">India</option>
+            <option value="USA">USA</option>
+            <option value="Canada">Canada</option>
+            <option value="Australia">Australia</option>
+            <option value="United Kingdom">United Kingdom</option>
+            <option value="Japan">Japan</option>
+            <option value="China">China</option>
+            <option value="Nepal">Nepal</option>
+            <option value="Bhutan">Bhutan</option>
+            <option value="Pakistan">Pakistan</option>
+            <option value="Bangladesh">Bangladesh</option>
+            <option value="Sri Lanka">Sri Lanka</option>
+            <option value="Germany">Germany</option>
+            <option value="France">France</option>
+            <option value="Italy">Italy</option>
+            <option value="Brazil">Brazil</option>
+            <option value="Russia">Russia</option>
+            <option value="South Korea">South Korea</option>
+            <option value="Singapore">Singapore</option>
+            <option value="New Zealand">New Zealand</option>
+        </select> <br>
+
+        <label for="teaxtarea">Your Message:</label>
+        <textarea name="message" id="message" rows="5" cols="30" placeholder="Write your message here..."></textarea> <br>
+        <button type="submit">Submit</button>
+        <button disabled="disabled">Disabled</button>
+        <button type="reset">Reset</button>
+
+
+    </form>
+</body>
+
+</html>
