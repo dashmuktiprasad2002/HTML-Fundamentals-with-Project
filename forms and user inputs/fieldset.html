@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fieldset</title>
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" placeholder="Enter Your Name">
+            <br><br>
+            <label for="mail">Email:</label>
+            <input type="email" name="mail" id="mail" placeholder="Enter Your Email">
+        </fieldset>
+
+        <fieldset>
+            <legend>Course Details</legend>
+            <label for="dt">Joining Date:</label>
+            <input type="datetime-local" name="dt" id="dt">
+            <br><br>
+            <label for="select">Course Name:</label>
+            <select name="slc" id="slc">
+                <option value="">Choose Your Course</option>
+                <option value="MERN Stack">MERN Stack</option>
+                <option value="DataScience">Data Science</option>
+                <option value="java">Java Full stack</option>
+            </select>
+        </fieldset>
+    </form>
+</body>
+
+</html>
